@@ -8,6 +8,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("My cool first GUI")
         self.setGeometry(500,0,500,500)
         self.setWindowIcon(QIcon("photo_2025-08-16_11-04-14.jpg"))
+        
 def main():
     app = QApplication(sys.argv)
     window = MainWindow()
